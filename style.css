@@ -174,3 +174,14 @@ h2 {
 #dribble{
     padding-right: 70px;
 }
+footer{
+    text-align: center;
+    background-color: black;
+}
+#f{
+    color: gray;
+}
+footer p{
+    color:white;
+    padding-bottom: 20px;
+}

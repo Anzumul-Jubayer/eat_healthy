@@ -1,54 +1,98 @@
 body {
+    font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Mono', monospace;
 }
-.first-banner{
+
+.first-banner {
     background-color: rgba(165, 42, 42, 0.17);
-   
+
 }
-.first-part{
+
+.first-part {
     display: flex;
-  
+
 }
-#heading{
+
+#heading {
     padding-top: 200px;
-   padding-left: 200px;
-    
+    padding-left: 200px;
+
 }
-span{
-    color:orange;
+
+span {
+    color: orange;
 }
-h1{
+
+h1 {
     color: rgba(0, 0, 0, 0.615);
     font-weight: bolder;
     font-size: 40px;
 }
-p{
+
+p {
     color: gray;
     font-size: 20px;
 }
-#hero{
+
+#hero {
     width: 700px;
     height: 700px;
 }
-#image{
+
+#image {
     padding-left: 100px;
     padding-top: 100px;
 }
-a{
-   background-image: linear-gradient(rgba(255, 166, 0, 0.651),tomato);
-    
+
+a {
+    background-image: linear-gradient(rgba(255, 166, 0, 0.651), tomato);
+
     text-decoration: none;
     padding: 20px 40px;
     border-radius: 30px;
     color: white;
 }
-#link{
+
+#link {
     margin-top: 40px;
 
 }
-.half-width{
+
+.half-width {
     width: 50%;
 }
 
+#about {
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top:20px;
+}
 
+.half-width {
+    width: 50%;
+
+}
+
+.half-width img {
+    width: 50%;
+    height: 80%;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+#me {
+    padding-top: 180px;
+    padding-right: 100px;
+}
+
+h2 {
+    font-size: 40px;
+}
+#black{
+    color:black;
+    font-weight: 700;
+    text-align: justify;
+}

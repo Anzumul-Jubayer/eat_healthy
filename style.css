@@ -1,0 +1,54 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.first-banner{
+    background-color: rgba(165, 42, 42, 0.17);
+   
+}
+.first-part{
+    display: flex;
+  
+}
+#heading{
+    padding-top: 200px;
+   padding-left: 200px;
+    
+}
+span{
+    color:orange;
+}
+h1{
+    color: rgba(0, 0, 0, 0.615);
+    font-weight: bolder;
+    font-size: 40px;
+}
+p{
+    color: gray;
+    font-size: 20px;
+}
+#hero{
+    width: 700px;
+    height: 700px;
+}
+#image{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+a{
+   background-image: linear-gradient(rgba(255, 166, 0, 0.651),tomato);
+    
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 30px;
+    color: white;
+}
+#link{
+    margin-top: 40px;
+
+}
+.half-width{
+    width: 50%;
+}
+
+
